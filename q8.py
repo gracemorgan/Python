@@ -1,0 +1,10 @@
+print("Enter source city:")
+source_city=input()
+print("Enter destination city:")
+destination_city=input()
+print("Enter distance between",source_city,"and",destination_city,"(miles):")
+distance=float(input())
+print("Enter the average speed of the car (mph):")
+avg_speed=float(input())
+travel_time=distance/avg_speed
+print("Expected time required to travel from",source_city,"to",destination_city,"is",travel_time,"hours")
